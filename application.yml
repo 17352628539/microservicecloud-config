@@ -1,14 +1,14 @@
-﻿sping
+﻿spring:
   profiles:
     active:
-	  -dev
+      -dev
 ---
-sping
-  profiles: dev  #开发环境
-  application: 
-	name: microservicecloud-config-atguigu-dev
+spring:
+  profiles: dev #开发环境
+  application:
+    name: microservicecloud-config-atguigu-dev
 ---
-spring
-  profiles: test  # 测试环境
-  application: 
+spring:
+  profiles: test  #测试环境
+  appliction:
      name: microservicecloud-config-atguigu-test
